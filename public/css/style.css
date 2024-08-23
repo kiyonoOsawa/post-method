@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 64px;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  width: 160px;
+  height: 160px;
+  line-height: 160px;
+  text-align: center;
+  border: 1px solid #009688;
+  border-radius: 50%;
+}
+
+input[value="+"] {
+  margin: 96px 0;
+  border: none;
+  color: #f9f9f9;
+  background: #448AFF;
+  width: 256px;
+  padding: 12px 0;
+  text-align: center;
+  font-size: 32px;
+}
